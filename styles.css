@@ -718,14 +718,6 @@ textarea.input-control {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .case-card.featured {
-    grid-column: span 2;
-  }
-
-  .case-points {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .builder-layout {
     grid-template-columns: 1.05fr 0.95fr;
   }
