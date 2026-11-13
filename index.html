@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyen Minh Tri — Systems-First Vibe Coder &amp; AI Builder</title>
+  <meta name="description" content="Systems-First Vibe Coder orchestrating 20x frontier AI compute to ship reliable AI SaaS MVPs, Python automations, and vibe-code rescues at indie-friendly rates." />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">MT</span>
+        <span class="brand-text">NGUYEN MINH TRI</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Primary">
+        <a href="#work" data-i18n="nav_work">Systems</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#workflow" data-i18n="nav_workflow">Workflow</a>
+        <a href="#estimate" data-i18n="nav_estimate">Quick Brief</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="status-pill">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-i18n="status_available">Open for micro-gigs</span>
+        </div>
+
+        <div class="lang-toggle" role="group" aria-label="Language switcher">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="vi" aria-pressed="false">VI</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container">
+        <span class="eyebrow" data-i18n="hero_eyebrow">Systems-First Vibe Coder · 20x AI Orchestration</span>
+        <h1 data-i18n="hero_title">Ship reliable AI apps &amp; automations in days — at indie-friendly rates.</h1>
+        <p class="lead" data-i18n="hero_lead">
+          I combine 20x frontier AI agent compute with real systems engineering (atomic ledgers, distributed locks, proxy resilience &amp; security checks). You get production-grade software fast on a per-gig budget — no agency bloat, no full-time retainer required.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#estimate" class="btn btn-primary" data-i18n="hero_cta_primary">Build Your 30-Sec Brief →</a>
+          <a href="#work" class="btn btn-secondary" data-i18n="hero_cta_secondary">Inspect Shipped Systems</a>
+          <a href="https://github.com/MinhTri12995" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub ↗</a>
+        </div>
+
+        <div class="proof-strip">
+          <div class="proof-item">
+            <span class="proof-value">3+ Live / Prod</span>
+            <span class="proof-label" data-i18n="proof_1">Full-stack SaaS, AI Workspace &amp; Ops Engines shipped</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-value">20x AI Compute</span>
+            <span class="proof-label" data-i18n="proof_2">Parallel multi-agent coding, testing &amp; verification</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-value">$35 – $350 / Gig</span>
+            <span class="proof-label" data-i18n="proof_3">Scoped per-project pricing · 1–7 days turnaround</span>
+          </div>
+          <div class="proof-item">
+            <span class="proof-value">Systems-Hardened</span>
+            <span class="proof-label" data-i18n="proof_4">Built to survive concurrency, timeouts &amp; edge cases</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="work_eyebrow">Production Case Studies</span>
+          <h2 data-i18n="work_title">Systems shipped beyond "demo mode"</h2>
+          <p class="section-desc" data-i18n="work_desc">
+            Every system below was engineered to handle real traffic, unreliable external APIs, and concurrent user actions.
+          </p>
+        </div>
+
+        <div class="cases-grid">
+          <article class="case-card featured">
+            <div class="case-top">
+              <div>
+                <span class="case-index">01 // EDTECH AI SAAS MONOREPO</span>
+                <h3>IELTSUp — Multi-Examiner AI Writing &amp; Speaking Platform</h3>
+              </div>
+              <span class="case-badge live" data-i18n="badge_live">Live Production</span>
+            </div>
+
+            <p class="case-summary" data-i18n="case1_summary">
+              Full-stack bilingual IELTS preparation SaaS powered by an isolated scoring engine, dual-examiner LLM panel, and atomic credit billing.
+            </p>
+
+            <div class="case-points">
+              <div class="case-point">
+                <strong data-i18n="lbl_problem">Problem</strong>
+                <span data-i18n="case1_prob">Single-prompt AI graders drift wildly in band scores and lose user credits when LLM calls timeout.</span>
+              </div>
+              <div class="case-point">
+                <strong data-i18n="lbl_arch">Architecture</strong>
+                <span data-i18n="case1_arch">4-stage evaluation pipeline + Blind Adjudication on ≥1.0 band variance + idempotent credit ledger with auto-refund.</span>
+              </div>
+              <div class="case-point">
+                <strong data-i18n="lbl_outcome">Outcome</strong>
+                <span data-i18n="case1_out">Consistent scoring grounded to character offsets, Render scoring server + Vercel failover, Stripe/PayOS/Crypto ready.</span>
+              </div>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">Next.js 16</span>
+              <span class="tag">React 19</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Express Scoring Server</span>
+              <span class="tag">Firebase + Redis</span>
+              <span class="tag">PayOS &amp; Stripe</span>
+            </div>
+
+            <div class="case-actions">
+              <a href="https://ielts-gemini-pro.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-i18n="btn_open_live">Open Live App ↗</a>
+              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-ielts" data-i18n="btn_inspect">Inspect Architecture</button>
+            </div>
+
+            <div id="arch-ielts" class="arch-drawer" hidden>
+              <strong data-i18n="arch_heading">Verified Engineering Mechanics:</strong>
+              <ul>
+                <li data-i18n="arch_ielts_1"><strong>Stage 0 Vision Pipeline:</strong> Extracts structured chart data for Task 1 prompts before grading so examiners verify figures accurately.</li>
+                <li data-i18n="arch_ielts_2"><strong>2-Examiner Panel + Blind Adjudicator:</strong> Runs two distinct LLMs in parallel and auto-invokes a third blind judge when scores diverge by ≥ 1.0 band.</li>
+                <li data-i18n="arch_ielts_3"><strong>Atomic Quota Ledger:</strong> SHA-256 request deduplication with <code>RESERVED → COMMITTED | REFUNDED</code> state transitions across wallet pools.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <div class="case-top">
+              <div>
+                <span class="case-index">02 // OPERATIONS &amp; AUTOMATION ENGINE</span>
+                <h3 data-i18n="case2_title">Automated Digital Vault &amp; AI Dispute Engine</h3>
+              </div>
+              <span class="case-badge" data-i18n="badge_private">Private Prod System</span>
+            </div>
+
+            <p class="case-summary" data-i18n="case2_summary">
+              High-concurrency digital inventory manager, automated access fulfillment portal, and AI Vision payment verification workflow.
+            </p>
+
+            <div class="case-points">
+              <div class="case-point">
+                <strong data-i18n="lbl_problem">Problem</strong>
+                <span data-i18n="case2_prob">Concurrent stock claims caused double-assignments; proxy blocks and fake warranty screenshots caused stock loss.</span>
+              </div>
+              <div class="case-point">
+                <strong data-i18n="lbl_arch">Architecture</strong>
+                <span data-i18n="case2_arch">Lease-locked worker queue, SQLite WAL + Supabase RPC, rotating proxy circuit breaker &amp; AI Vision OCR matching.</span>
+              </div>
+              <div class="case-point">
+                <strong data-i18n="lbl_outcome">Outcome</strong>
+                <span data-i18n="case2_out">Zero double-claims under load, >95% card OCR verification accuracy, automated Telegram ops alerts.</span>
+              </div>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">Python</span>
+              <span class="tag">Flask Blueprints</span>
+              <span class="tag">SQLite WAL</span>
+              <span class="tag">Supabase RPC</span>
+              <span class="tag">AI Vision OCR</span>
+              <span class="tag">Rotating Proxies</span>
+            </div>
+
+            <div class="case-actions">
+              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-vault" data-i18n="btn_inspect">Inspect Architecture</button>
+            </div>
+
+            <div id="arch-vault" class="arch-drawer" hidden>
+              <strong data-i18n="arch_heading">Verified Engineering Mechanics:</strong>
+              <ul>
+                <li data-i18n="arch_vault_1"><strong>Atomic Lease-Locking Queue:</strong> Workers claim jobs with 180s expiring lease tokens and fingerprint guards so stale workers never overwrite fresh state.</li>
+                <li data-i18n="arch_vault_2"><strong>Dual-Evidence Verifier:</strong> Strict HTTP &amp; JSON classification prevents 429/5xx network errors from being misread as valid or dead items.</li>
+                <li data-i18n="arch_vault_3"><strong>Security Hardening:</strong> CSRF protection, multi-tier rate limiting, scrypt/werkzeug hashed auth, and zero credential logging.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="case-card">
+            <div class="case-top">
+              <div>
+                <span class="case-index">03 // MULTI-LLM STREAMING CLIENT</span>
+                <h3>TriGPT — Unified 65+ Model AI Workspace</h3>
+              </div>
+              <span class="case-badge live" data-i18n="badge_live">Live Production</span>
+            </div>
+
+            <p class="case-summary" data-i18n="case3_summary">
+              Pitch-black multi-model chat workspace streaming 65+ LLMs via a secure Express SSE proxy with Firebase authentication and Firestore history.
+            </p>
+
+            <div class="case-points">
+              <div class="case-point">
+                <strong data-i18n="lbl_problem">Problem</strong>
+                <span data-i18n="case3_prob">Client-side LLM apps leak API keys and break when switching across different provider schemas.</span>
+              </div>
+              <div class="case-point">
+                <strong data-i18n="lbl_arch">Architecture</strong>
+                <span data-i18n="case3_arch">React/Vite UI → Firebase ID Token verification → Express SSE adapter proxy with graceful seed fallback.</span>
+              </div>
+              <div class="case-point">
+                <strong data-i18n="lbl_outcome">Outcome</strong>
+                <span data-i18n="case3_out">Fast real-time streaming across frontier models with zero exposed upstream keys and clean fallback resilience.</span>
+              </div>
+            </div>
+
+            <div class="tag-row">
+              <span class="tag">React</span>
+              <span class="tag">Vite</span>
+              <span class="tag">Express SSE</span>
+              <span class="tag">Firebase Auth</span>
+              <span class="tag">Firestore</span>
+            </div>
+
+            <div class="case-actions">
+              <a href="https://trigpt0810.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-i18n="btn_open_live">Open Live App ↗</a>
+              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-trigpt" data-i18n="btn_inspect">Inspect Architecture</button>
+            </div>
+
+            <div id="arch-trigpt" class="arch-drawer" hidden>
+              <strong data-i18n="arch_heading">Verified Engineering Mechanics:</strong>
+              <ul>
+                <li data-i18n="arch_trigpt_1"><strong>Zero Key Exposure:</strong> Browser holds only short-lived Firebase ID tokens; upstream LLM credentials remain strictly on the Express backend.</li>
+                <li data-i18n="arch_trigpt_2"><strong>Graceful Degradation:</strong> Automatically degrades to catalog seed mode if upstream config is missing, preventing white-screen crashes.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="svc_eyebrow">Scoped Gigs &amp; Transparent Rates</span>
+          <h2 data-i18n="svc_title">Small, fast, affordable — pay per shipped milestone</h2>
+          <p class="section-desc" data-i18n="svc_desc">
+            No full-time lock-in. Pick the exact size of work you need and pay less because 20x AI compute cuts build time down to days.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-meta">
+              <span class="service-price" data-i18n="svc1_price">From $35+</span>
+              <span class="service-time" data-i18n="svc1_time">1–3 Days</span>
+            </div>
+            <h3 data-i18n="svc1_title">Python Bots, Scrapers &amp; Automation</h3>
+            <ul class="service-list">
+              <li data-i18n="svc1_li1">Proxy-resilient data scrapers &amp; auto-checkers</li>
+              <li data-i18n="svc1_li2">Telegram / Discord alert &amp; workflow bots</li>
+              <li data-i18n="svc1_li3">AI Vision OCR &amp; document parsing scripts</li>
+              <li data-i18n="svc1_li4">Clean CLI, logs, and retry safety included</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-meta">
+              <span class="service-price" data-i18n="svc2_price">From $50+</span>
+              <span class="service-time" data-i18n="svc2_time">1–3 Days</span>
+            </div>
+            <h3 data-i18n="svc2_title">Vibe-Code Rescue &amp; Production Fix</h3>
+            <ul class="service-list">
+              <li data-i18n="svc2_li1">Fix stuck Cursor, Lovable, or Bolt prototypes</li>
+              <li data-i18n="svc2_li2">Eliminate race conditions, DB locks &amp; auth leaks</li>
+              <li data-i18n="svc2_li3">Add rate limiting, CSRF &amp; error fallbacks</li>
+              <li data-i18n="svc2_li4">Deploy cleanly to Vercel, Render, or VPS</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <div class="service-meta">
+              <span class="service-price" data-i18n="svc3_price">From $120+</span>
+              <span class="service-time" data-i18n="svc3_time">3–7 Days</span>
+            </div>
+            <h3 data-i18n="svc3_title">Fast-Track AI Web App / SaaS MVP</h3>
+            <ul class="service-list">
+              <li data-i18n="svc3_li1">Next.js / React + Python or Node backend</li>
+              <li data-i18n="svc3_li2">Multi-LLM API streaming &amp; credit/quota ledger</li>
+              <li data-i18n="svc3_li3">Firebase / Supabase Auth + Stripe / PayOS billing</li>
+              <li data-i18n="svc3_li4">Responsive dark/light UI + full source handover</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="wf_eyebrow">Engineering Workflow</span>
+          <h2 data-i18n="wf_title">Why my vibe coding doesn't break in production</h2>
+        </div>
+
+        <div class="workflow-grid">
+          <div class="step-card">
+            <span class="step-num">STEP 01</span>
+            <h3 data-i18n="wf1_t">Systems Spec First</h3>
+            <p data-i18n="wf1_d">Define state transitions, failure modes, rate limits, and database invariants before generating code.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">STEP 02</span>
+            <h3 data-i18n="wf2_t">20x Parallel AI Agents</h3>
+            <p data-i18n="wf2_d">Orchestrate high-quota frontier models across frontend, backend, and tests simultaneously for rapid delivery.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">STEP 03</span>
+            <h3 data-i18n="wf3_t">Adversarial Verification</h3>
+            <p data-i18n="wf3_d">Stress-test concurrency, API 429/500 timeouts, auth boundaries, and input validation before handoff.</p>
+          </div>
+          <div class="step-card">
+            <span class="step-num">STEP 04</span>
+            <h3 data-i18n="wf4_t">Clean Deploy &amp; Handover</h3>
+            <p data-i18n="wf4_d">Deliver documented GitHub repo, `.env.example`, and live Vercel/Render deployment ready for real users.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="estimate" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="est_eyebrow">30-Second Gig Brief</span>
+          <h2 data-i18n="est_title">Scope your job &amp; send it in one click</h2>
+          <p class="section-desc" data-i18n="est_desc">
+            Select what you need below to generate a structured project brief. Copy it to send on Telegram/Facebook/Upwork, or submit directly via GitHub.
+          </p>
+        </div>
+
+        <div class="builder-layout">
+          <form class="builder-panel" id="briefForm" onsubmit="return false;">
+            <div class="field-group">
+              <span class="field-label" data-i18n="fld_type">1. Project Type</span>
+              <div class="chip-group" data-group="type">
+                <button type="button" class="chip-btn" data-value="AI Web App / Micro-SaaS MVP" aria-pressed="true" data-i18n="opt_type_1">AI Web App / MVP</button>
+                <button type="button" class="chip-btn" data-value="Python Automation / Bot / Scraper" aria-pressed="false" data-i18n="opt_type_2">Python Bot / Automation</button>
+                <button type="button" class="chip-btn" data-value="Fix & Harden Existing Vibe-Coded App" aria-pressed="false" data-i18n="opt_type_3">Fix Vibe-Coded App</button>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <span class="field-label" data-i18n="fld_timeline">2. Target Timeline</span>
+              <div class="chip-group" data-group="timeline">
+                <button type="button" class="chip-btn" data-value="Urgent (24–48 hours)" aria-pressed="false" data-i18n="opt_time_1">Urgent (48h)</button>
+                <button type="button" class="chip-btn" data-value="Standard (3–5 days)" aria-pressed="true" data-i18n="opt_time_2">Standard (3–5 days)</button>
+                <button type="button" class="chip-btn" data-value="Flexible (1–2 weeks)" aria-pressed="false" data-i18n="opt_time_3">Flexible</button>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <span class="field-label" data-i18n="fld_budget">3. Budget Comfort Zone</span>
+              <div class="chip-group" data-group="budget">
+                <button type="button" class="chip-btn" data-value="$35 – $100 (Quick Script / Bug Fix)" aria-pressed="false" data-i18n="opt_bud_1">$35 – $100</button>
+                <button type="button" class="chip-btn" data-value="$100 – $250 (Feature / Bot / Tool)" aria-pressed="true" data-i18n="opt_bud_2">$100 – $250</button>
+                <button type="button" class="chip-btn" data-value="$250 – $500+ (Full SaaS MVP)" aria-pressed="false" data-i18n="opt_bud_3">$250 – $500+</button>
+                <button type="button" class="chip-btn" data-value="Flexible — Suggest an optimal scope" aria-pressed="false" data-i18n="opt_bud_4">Suggest Scope</button>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="ideaInput" class="field-label" data-i18n="fld_idea">4. Short Description</label>
+              <textarea id="ideaInput" class="input-control" placeholder="e.g., Build a Next.js AI landing page with Stripe/PayOS, or fix auth & deploy my Cursor app..."></textarea>
+            </div>
+
+            <div class="field-group">
+              <label for="contactInput" class="field-label" data-i18n="fld_contact">5. Your Contact (Telegram / Zalo / Email / FB)</label>
+              <input id="contactInput" type="text" class="input-control" placeholder="e.g., @your_handle or email@domain.com" />
+            </div>
+          </form>
+
+          <div class="builder-panel">
+            <span class="field-label" data-i18n="fld_preview">Generated Brief Preview</span>
+            <pre id="briefPreview" class="preview-box" aria-live="polite"></pre>
+
+            <div class="builder-cta-row">
+              <button type="button" id="copyBriefBtn" class="btn btn-secondary" data-i18n="btn_copy">Copy Brief</button>
+              <a id="githubSubmitLink" href="https://github.com/MinhTri12995/MinhTri12995/issues/new?template=project-inquiry.yml" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btn_submit_gh">Submit via GitHub Inquiry →</a>
+            </div>
+            <p id="copyFeedback" class="copy-feedback" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Nguyen Minh Tri (@MinhTri12995) — Systems-First Vibe Coder.</span>
+      <div class="footer-links">
+        <a href="https://github.com/MinhTri12995" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://ielts-gemini-pro.vercel.app" target="_blank" rel="noopener noreferrer">IELTSUp</a>
+        <a href="https://trigpt0810.vercel.app" target="_blank" rel="noopener noreferrer">TriGPT</a>
+        <a href="https://github.com/MinhTri12995/MinhTri12995/issues/new?template=project-inquiry.yml" target="_blank" rel="noopener noreferrer" data-i18n="footer_hire">Book a Gig</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
