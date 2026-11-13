@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nguyen Minh Tri — Full-Stack Web &amp; Python Automation Developer</title>
-  <meta name="description" content="Full-Stack Web &amp; Python Automation Developer building reliable Next.js SaaS apps, payment flows, Python bots, and practical AI integrations on flexible per-project scopes." />
+  <meta name="description" content="Full-Stack Web &amp; Python Automation Developer building reliable Next.js SaaS apps, Stripe billing flows, Python bots, and practical AI integrations on flexible per-project scopes." />
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,22 +22,19 @@
       </a>
 
       <nav class="header-nav" aria-label="Primary">
-        <a href="#work" data-i18n="nav_work">Work</a>
-        <a href="#services" data-i18n="nav_services">Services</a>
-        <a href="#workflow" data-i18n="nav_workflow">Workflow</a>
-        <a href="#estimate" data-i18n="nav_estimate">Quick Brief</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#estimate">Quick Brief</a>
       </nav>
 
       <div class="header-actions">
         <div class="status-pill">
           <span class="status-dot" aria-hidden="true"></span>
-          <span data-i18n="status_available">Available for projects</span>
+          <span>Available for projects</span>
         </div>
-
-        <div class="lang-toggle" role="group" aria-label="Language switcher">
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
-          <button type="button" class="lang-btn" data-lang="vi" aria-pressed="false">VI</button>
-        </div>
+        <span class="tz-badge">UTC+7 · Worldwide</span>
+        <a href="#estimate" class="btn btn-primary btn-header">Quick Quote →</a>
       </div>
     </div>
   </header>
@@ -45,34 +42,34 @@
   <main id="main">
     <section id="top" class="hero">
       <div class="container">
-        <span class="eyebrow" data-i18n="hero_eyebrow">Full-Stack Web &amp; Python Automation Developer</span>
-        <h1 data-i18n="hero_title">Build fast, reliable web apps and automation tools — without agency overhead.</h1>
-        <p class="lead" data-i18n="hero_lead">
-          I design and ship production-ready Next.js apps, payment workflows, Python automation bots, and practical AI integrations. Built with real systems reliability — atomic billing ledgers, distributed locks, proxy failover, and clean handoff — on fast per-project budgets.
+        <span class="eyebrow">Full-Stack Web &amp; Python Automation Developer</span>
+        <h1>Build fast, reliable web apps and automation tools — without agency overhead.</h1>
+        <p class="lead">
+          I design and ship production-ready Next.js apps, payment workflows, Python automation bots, and practical AI integrations. Built with real systems reliability — atomic billing ledgers, distributed locks, proxy failover, and clean handoff — on fast per-project budgets for global teams.
         </p>
 
         <div class="hero-actions">
-          <a href="#estimate" class="btn btn-primary" data-i18n="hero_cta_primary">Build Your 30-Sec Brief →</a>
-          <a href="#work" class="btn btn-secondary" data-i18n="hero_cta_secondary">Inspect Shipped Work</a>
+          <a href="#estimate" class="btn btn-primary">Build Your 30-Sec Brief →</a>
+          <a href="#work" class="btn btn-secondary">Inspect Shipped Work</a>
           <a href="https://github.com/MinhTri12995" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">GitHub ↗</a>
         </div>
 
         <div class="proof-strip">
           <div class="proof-item">
             <span class="proof-value">2+ Prod Systems</span>
-            <span class="proof-label" data-i18n="proof_1">Live EdTech SaaS &amp; high-concurrency Python ops shipped</span>
+            <span class="proof-label">Live EdTech SaaS &amp; high-concurrency Python ops shipped</span>
           </div>
           <div class="proof-item">
             <span class="proof-value">1–7 Days</span>
-            <span class="proof-label" data-i18n="proof_2">Fast per-project delivery with clean code handoff</span>
+            <span class="proof-label">Fast per-project delivery with clean code handoff</span>
           </div>
           <div class="proof-item">
             <span class="proof-value">$35 – $350 / Project</span>
-            <span class="proof-label" data-i18n="proof_3">Transparent fixed milestones · No full-time commitment</span>
+            <span class="proof-label">Transparent fixed milestones · No full-time commitment</span>
           </div>
           <div class="proof-item">
             <span class="proof-value">Production-Hardened</span>
-            <span class="proof-label" data-i18n="proof_4">Built to survive concurrency, timeouts &amp; edge cases</span>
+            <span class="proof-label">Built to survive concurrency, timeouts &amp; edge cases</span>
           </div>
         </div>
       </div>
@@ -81,9 +78,9 @@
     <section id="work" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow" data-i18n="work_eyebrow">Production Case Studies</span>
-          <h2 data-i18n="work_title">Systems shipped beyond "demo mode"</h2>
-          <p class="section-desc" data-i18n="work_desc">
+          <span class="eyebrow">Production Case Studies</span>
+          <h2>Systems shipped beyond "demo mode"</h2>
+          <p class="section-desc">
             Every system below was engineered to handle real traffic, unreliable external APIs, and concurrent user actions.
           </p>
         </div>
@@ -95,25 +92,25 @@
                 <span class="case-index">01 // EDTECH AI SAAS MONOREPO</span>
                 <h3>IELTSUp — Multi-Examiner AI Writing &amp; Speaking Platform</h3>
               </div>
-              <span class="case-badge live" data-i18n="badge_live">Live Production</span>
+              <span class="case-badge live">Live Production</span>
             </div>
 
-            <p class="case-summary" data-i18n="case1_summary">
-              Full-stack bilingual IELTS preparation SaaS powered by an isolated scoring engine, dual-examiner LLM panel, and atomic credit billing.
+            <p class="case-summary">
+              Full-stack IELTS preparation SaaS powered by an isolated scoring engine, dual-examiner LLM panel, and atomic credit billing.
             </p>
 
             <div class="case-points">
               <div class="case-point">
-                <strong data-i18n="lbl_problem">Problem</strong>
-                <span data-i18n="case1_prob">Single-prompt AI graders drift wildly in band scores and lose user credits when API calls timeout.</span>
+                <strong>Problem</strong>
+                <span>Single-prompt AI graders drift wildly in band scores and lose user credits when API calls timeout.</span>
               </div>
               <div class="case-point">
-                <strong data-i18n="lbl_arch">Architecture</strong>
-                <span data-i18n="case1_arch">4-stage evaluation pipeline + Blind Adjudication on ≥1.0 band variance + idempotent credit ledger with auto-refund.</span>
+                <strong>Architecture</strong>
+                <span>4-stage evaluation pipeline + Blind Adjudication on ≥1.0 band variance + idempotent credit ledger with auto-refund.</span>
               </div>
               <div class="case-point">
-                <strong data-i18n="lbl_outcome">Outcome</strong>
-                <span data-i18n="case1_out">Consistent scoring grounded to character offsets, Render scoring server + Vercel failover, Stripe/PayOS/Crypto ready.</span>
+                <strong>Outcome</strong>
+                <span>Consistent scoring grounded to character offsets, Render scoring server + Vercel failover, Stripe &amp; Crypto billing ready.</span>
               </div>
             </div>
 
@@ -123,20 +120,20 @@
               <span class="tag">TypeScript</span>
               <span class="tag">Express Worker</span>
               <span class="tag">Firebase + Redis</span>
-              <span class="tag">PayOS &amp; Stripe</span>
+              <span class="tag">Stripe &amp; Webhooks</span>
             </div>
 
             <div class="case-actions">
-              <a href="https://www.ieltsup.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" data-i18n="btn_open_live">Open ieltsup.app ↗</a>
-              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-ielts" data-i18n="btn_inspect">Inspect Architecture</button>
+              <a href="https://www.ieltsup.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Open ieltsup.app ↗</a>
+              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-ielts">Inspect Architecture</button>
             </div>
 
             <div id="arch-ielts" class="arch-drawer" hidden>
-              <strong data-i18n="arch_heading">Verified Engineering Mechanics:</strong>
+              <strong>Verified Engineering Mechanics:</strong>
               <ul>
-                <li data-i18n="arch_ielts_1"><strong>Stage 0 Vision Pipeline:</strong> Extracts structured chart data for Task 1 prompts before grading so examiners verify figures accurately.</li>
-                <li data-i18n="arch_ielts_2"><strong>2-Examiner Panel + Blind Adjudicator:</strong> Runs two distinct models in parallel and auto-invokes a third blind judge when scores diverge by ≥ 1.0 band.</li>
-                <li data-i18n="arch_ielts_3"><strong>Atomic Quota Ledger:</strong> SHA-256 request deduplication with <code>RESERVED → COMMITTED | REFUNDED</code> state transitions across wallet pools.</li>
+                <li><strong>Stage 0 Vision Pipeline:</strong> Extracts structured chart data for Task 1 prompts before grading so examiners verify figures accurately.</li>
+                <li><strong>2-Examiner Panel + Blind Adjudicator:</strong> Runs two distinct models in parallel and auto-invokes a third blind judge when scores diverge by ≥ 1.0 band.</li>
+                <li><strong>Atomic Quota Ledger:</strong> SHA-256 request deduplication with <code>RESERVED → COMMITTED | REFUNDED</code> state transitions across wallet pools.</li>
               </ul>
             </div>
           </article>
@@ -145,27 +142,27 @@
             <div class="case-top">
               <div>
                 <span class="case-index">02 // OPERATIONS &amp; AUTOMATION ENGINE</span>
-                <h3 data-i18n="case2_title">Automated Digital Fulfillment &amp; Dispute Verification System</h3>
+                <h3>Automated Digital Fulfillment &amp; Dispute Verification System</h3>
               </div>
-              <span class="case-badge" data-i18n="badge_private">Private Prod System</span>
+              <span class="case-badge">Private Prod System</span>
             </div>
 
-            <p class="case-summary" data-i18n="case2_summary">
+            <p class="case-summary">
               High-concurrency digital inventory manager, automated access fulfillment portal, and AI Vision payment verification workflow.
             </p>
 
             <div class="case-points">
               <div class="case-point">
-                <strong data-i18n="lbl_problem">Problem</strong>
-                <span data-i18n="case2_prob">Concurrent stock claims caused double-assignments; proxy blocks and fake warranty screenshots caused inventory loss.</span>
+                <strong>Problem</strong>
+                <span>Concurrent stock claims caused double-assignments; proxy blocks and fake warranty screenshots caused inventory loss.</span>
               </div>
               <div class="case-point">
-                <strong data-i18n="lbl_arch">Architecture</strong>
-                <span data-i18n="case2_arch">Lease-locked worker queue, SQLite WAL + Supabase RPC, rotating proxy circuit breaker &amp; AI Vision OCR matching.</span>
+                <strong>Architecture</strong>
+                <span>Lease-locked worker queue, SQLite WAL + Supabase RPC, rotating proxy circuit breaker &amp; AI Vision OCR matching.</span>
               </div>
               <div class="case-point">
-                <strong data-i18n="lbl_outcome">Outcome</strong>
-                <span data-i18n="case2_out">Zero double-claims under load, &gt;95% card OCR verification accuracy, automated Telegram ops alerts.</span>
+                <strong>Outcome</strong>
+                <span>Zero double-claims under load, &gt;95% card OCR verification accuracy, automated Telegram ops alerts.</span>
               </div>
             </div>
 
@@ -179,15 +176,15 @@
             </div>
 
             <div class="case-actions">
-              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-vault" data-i18n="btn_inspect">Inspect Architecture</button>
+              <button type="button" class="btn btn-secondary btn-sm drawer-toggle" aria-expanded="false" aria-controls="arch-vault">Inspect Architecture</button>
             </div>
 
             <div id="arch-vault" class="arch-drawer" hidden>
-              <strong data-i18n="arch_heading">Verified Engineering Mechanics:</strong>
+              <strong>Verified Engineering Mechanics:</strong>
               <ul>
-                <li data-i18n="arch_vault_1"><strong>Atomic Lease-Locking Queue:</strong> Workers claim jobs with 180s expiring lease tokens and fingerprint guards so stale workers never overwrite fresh state.</li>
-                <li data-i18n="arch_vault_2"><strong>Dual-Evidence Verifier:</strong> Strict HTTP &amp; JSON classification prevents 429/5xx network errors from being misread as valid or dead items.</li>
-                <li data-i18n="arch_vault_3"><strong>Security Hardening:</strong> CSRF protection, multi-tier rate limiting, scrypt/werkzeug hashed auth, and zero credential logging.</li>
+                <li><strong>Atomic Lease-Locking Queue:</strong> Workers claim jobs with 180s expiring lease tokens and fingerprint guards so stale workers never overwrite fresh state.</li>
+                <li><strong>Dual-Evidence Verifier:</strong> Strict HTTP &amp; JSON classification prevents 429/5xx network errors from being misread as valid or dead items.</li>
+                <li><strong>Security Hardening:</strong> CSRF protection, multi-tier rate limiting, scrypt/werkzeug hashed auth, and zero credential logging.</li>
               </ul>
             </div>
           </article>
@@ -198,53 +195,53 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow" data-i18n="svc_eyebrow">Scoped Projects &amp; Transparent Rates</span>
-          <h2 data-i18n="svc_title">Small, fast, affordable — pay per shipped milestone</h2>
-          <p class="section-desc" data-i18n="svc_desc">
-            No full-time lock-in. Pick the exact scope you need with clear deliverables, realistic timelines, and indie-friendly pricing.
+          <span class="eyebrow">Scoped Projects &amp; Transparent Rates</span>
+          <h2>Small, fast, affordable — pay per shipped milestone</h2>
+          <p class="section-desc">
+            No full-time lock-in. Pick the exact scope you need with clear deliverables, realistic timelines, and indie-friendly USD pricing.
           </p>
         </div>
 
         <div class="services-grid">
           <article class="service-card">
             <div class="service-meta">
-              <span class="service-price" data-i18n="svc1_price">From $35+</span>
-              <span class="service-time" data-i18n="svc1_time">1–3 Days</span>
+              <span class="service-price">From $35+</span>
+              <span class="service-time">1–3 Days</span>
             </div>
-            <h3 data-i18n="svc1_title">Python Bots, Scrapers &amp; Automation</h3>
+            <h3>Python Bots, Scrapers &amp; Automation</h3>
             <ul class="service-list">
-              <li data-i18n="svc1_li1">Proxy-resilient data scrapers &amp; auto-checkers</li>
-              <li data-i18n="svc1_li2">Telegram / Discord alert &amp; workflow bots</li>
-              <li data-i18n="svc1_li3">AI Vision OCR &amp; document parsing scripts</li>
-              <li data-i18n="svc1_li4">Clean CLI, logs, and retry safety included</li>
+              <li>Proxy-resilient data scrapers &amp; auto-checkers</li>
+              <li>Telegram / Discord alert &amp; workflow bots</li>
+              <li>AI Vision OCR &amp; document parsing scripts</li>
+              <li>Clean CLI, logs, and retry safety included</li>
             </ul>
           </article>
 
           <article class="service-card">
             <div class="service-meta">
-              <span class="service-price" data-i18n="svc2_price">From $50+</span>
-              <span class="service-time" data-i18n="svc2_time">1–3 Days</span>
+              <span class="service-price">From $50+</span>
+              <span class="service-time">1–3 Days</span>
             </div>
-            <h3 data-i18n="svc2_title">Bug Fixing, Optimization &amp; Deployment</h3>
+            <h3>Bug Fixing, Optimization &amp; Deployment</h3>
             <ul class="service-list">
-              <li data-i18n="svc2_li1">Debug stuck React, Next.js, Node, or Python apps</li>
-              <li data-i18n="svc2_li2">Eliminate race conditions, DB locks &amp; auth leaks</li>
-              <li data-i18n="svc2_li3">Add rate limiting, validation &amp; error fallbacks</li>
-              <li data-i18n="svc2_li4">Deploy cleanly to Vercel, Render, or VPS</li>
+              <li>Debug stuck React, Next.js, Node, or Python apps</li>
+              <li>Eliminate race conditions, DB locks &amp; auth leaks</li>
+              <li>Add rate limiting, validation &amp; error fallbacks</li>
+              <li>Deploy cleanly to Vercel, Render, or VPS</li>
             </ul>
           </article>
 
           <article class="service-card">
             <div class="service-meta">
-              <span class="service-price" data-i18n="svc3_price">From $120+</span>
-              <span class="service-time" data-i18n="svc3_time">3–7 Days</span>
+              <span class="service-price">From $120+</span>
+              <span class="service-time">3–7 Days</span>
             </div>
-            <h3 data-i18n="svc3_title">Full-Stack Web App / SaaS MVP</h3>
+            <h3>Full-Stack Web App / SaaS MVP</h3>
             <ul class="service-list">
-              <li data-i18n="svc3_li1">Next.js / React + Python or Node backend</li>
-              <li data-i18n="svc3_li2">Practical AI workflows &amp; usage credit ledger</li>
-              <li data-i18n="svc3_li3">Firebase / Supabase Auth + Stripe / PayOS billing</li>
-              <li data-i18n="svc3_li4">Responsive dark/light UI + full source handover</li>
+              <li>Next.js / React + Python or Node backend</li>
+              <li>Practical AI workflows &amp; usage credit ledger</li>
+              <li>Firebase / Supabase Auth + Stripe &amp; Webhook billing</li>
+              <li>Responsive dark/light UI + full source handover</li>
             </ul>
           </article>
         </div>
@@ -254,30 +251,30 @@
     <section id="workflow" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow" data-i18n="wf_eyebrow">How We Work Together</span>
-          <h2 data-i18n="wf_title">Simple process from brief to production launch</h2>
+          <span class="eyebrow">How We Work Together</span>
+          <h2>Simple process from brief to production launch</h2>
         </div>
 
         <div class="workflow-grid">
           <div class="step-card">
             <span class="step-num">STEP 01</span>
-            <h3 data-i18n="wf1_t">Clear Scope &amp; Spec</h3>
-            <p data-i18n="wf1_d">Align on core features, data flows, failure modes, and fixed pricing upfront before any coding begins.</p>
+            <h3>Clear Scope &amp; Spec</h3>
+            <p>Align on core features, data flows, failure modes, and fixed USD pricing upfront before any coding begins.</p>
           </div>
           <div class="step-card">
             <span class="step-num">STEP 02</span>
-            <h3 data-i18n="wf2_t">Rapid Full-Stack Build</h3>
-            <p data-i18n="wf2_d">Ship modular UI, clean API routes, and database schemas quickly with daily progress previews.</p>
+            <h3>Rapid Full-Stack Build</h3>
+            <p>Ship modular UI, clean API routes, and database schemas quickly with daily async previews across time zones.</p>
           </div>
           <div class="step-card">
             <span class="step-num">STEP 03</span>
-            <h3 data-i18n="wf3_t">Real-World Stress Testing</h3>
-            <p data-i18n="wf3_d">Test concurrency, API 429/500 timeouts, webhook safety, and input validation before handoff.</p>
+            <h3>Real-World Stress Testing</h3>
+            <p>Test concurrency, API 429/500 timeouts, webhook safety, and input validation before handoff.</p>
           </div>
           <div class="step-card">
             <span class="step-num">STEP 04</span>
-            <h3 data-i18n="wf4_t">Clean Deploy &amp; Handover</h3>
-            <p data-i18n="wf4_d">Deliver documented GitHub repo, `.env.example`, and live Vercel/Render deployment ready for real users.</p>
+            <h3>Clean Deploy &amp; Handover</h3>
+            <p>Deliver documented GitHub repo, `.env.example`, and live Vercel/Render deployment ready for real users.</p>
           </div>
         </div>
       </div>
@@ -286,61 +283,61 @@
     <section id="estimate" class="section">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow" data-i18n="est_eyebrow">30-Second Project Brief</span>
-          <h2 data-i18n="est_title">Scope your job &amp; send it in one click</h2>
-          <p class="section-desc" data-i18n="est_desc">
-            Select what you need below to generate a structured project brief. Copy it to send on Telegram/Facebook/Upwork, or submit directly via GitHub.
+          <span class="eyebrow">30-Second Project Brief</span>
+          <h2>Scope your job &amp; send it in one click</h2>
+          <p class="section-desc">
+            Select what you need below to generate a structured project brief. Copy it to paste into Upwork, Fiverr, Reddit, Telegram, or Discord — or submit directly via GitHub.
           </p>
         </div>
 
         <div class="builder-layout">
           <form class="builder-panel" id="briefForm" onsubmit="return false;">
             <div class="field-group">
-              <span class="field-label" data-i18n="fld_type">1. Project Type</span>
+              <span class="field-label">1. Project Type</span>
               <div class="chip-group" data-group="type">
-                <button type="button" class="chip-btn" data-value="AI Web App / Micro-SaaS MVP" aria-pressed="true" data-i18n="opt_type_1">Web App / SaaS MVP</button>
-                <button type="button" class="chip-btn" data-value="Python Automation / Bot / Scraper" aria-pressed="false" data-i18n="opt_type_2">Python Bot / Automation</button>
-                <button type="button" class="chip-btn" data-value="Bug Fixing, Optimization & Deployment (Existing App)" aria-pressed="false" data-i18n="opt_type_3">Bug Fix &amp; App Deployment</button>
+                <button type="button" class="chip-btn" data-value="Full-Stack Web App / Micro-SaaS MVP" aria-pressed="true">Web App / SaaS MVP</button>
+                <button type="button" class="chip-btn" data-value="Python Automation / Bot / Scraper" aria-pressed="false">Python Bot / Automation</button>
+                <button type="button" class="chip-btn" data-value="Bug Fixing, Optimization & Deployment (Existing App)" aria-pressed="false">Bug Fix &amp; App Deployment</button>
               </div>
             </div>
 
             <div class="field-group">
-              <span class="field-label" data-i18n="fld_timeline">2. Target Timeline</span>
+              <span class="field-label">2. Target Timeline</span>
               <div class="chip-group" data-group="timeline">
-                <button type="button" class="chip-btn" data-value="Urgent (24–48 hours)" aria-pressed="false" data-i18n="opt_time_1">Urgent (48h)</button>
-                <button type="button" class="chip-btn" data-value="Standard (3–5 days)" aria-pressed="true" data-i18n="opt_time_2">Standard (3–5 days)</button>
-                <button type="button" class="chip-btn" data-value="Flexible (1–2 weeks)" aria-pressed="false" data-i18n="opt_time_3">Flexible</button>
+                <button type="button" class="chip-btn" data-value="Urgent (24–48 hours)" aria-pressed="false">Urgent (48h)</button>
+                <button type="button" class="chip-btn" data-value="Standard (3–5 days)" aria-pressed="true">Standard (3–5 days)</button>
+                <button type="button" class="chip-btn" data-value="Flexible (1–2 weeks)" aria-pressed="false">Flexible</button>
               </div>
             </div>
 
             <div class="field-group">
-              <span class="field-label" data-i18n="fld_budget">3. Budget Comfort Zone</span>
+              <span class="field-label">3. Budget Comfort Zone</span>
               <div class="chip-group" data-group="budget">
-                <button type="button" class="chip-btn" data-value="$35 – $100 (Quick Script / Bug Fix)" aria-pressed="false" data-i18n="opt_bud_1">$35 – $100</button>
-                <button type="button" class="chip-btn" data-value="$100 – $250 (Feature / Bot / Tool)" aria-pressed="true" data-i18n="opt_bud_2">$100 – $250</button>
-                <button type="button" class="chip-btn" data-value="$250 – $500+ (Full SaaS MVP)" aria-pressed="false" data-i18n="opt_bud_3">$250 – $500+</button>
-                <button type="button" class="chip-btn" data-value="Flexible — Suggest an optimal scope" aria-pressed="false" data-i18n="opt_bud_4">Suggest Scope</button>
+                <button type="button" class="chip-btn" data-value="$35 – $100 (Quick Script / Bug Fix)" aria-pressed="false">$35 – $100</button>
+                <button type="button" class="chip-btn" data-value="$100 – $250 (Feature / Bot / Tool)" aria-pressed="true">$100 – $250</button>
+                <button type="button" class="chip-btn" data-value="$250 – $500+ (Full SaaS MVP)" aria-pressed="false">$250 – $500+</button>
+                <button type="button" class="chip-btn" data-value="Flexible — Suggest an optimal scope" aria-pressed="false">Suggest Scope</button>
               </div>
             </div>
 
             <div class="field-group">
-              <label for="ideaInput" class="field-label" data-i18n="fld_idea">4. Short Description</label>
-              <textarea id="ideaInput" class="input-control" placeholder="e.g., Build a Next.js web app with Stripe/PayOS checkout, create a Python bot, or fix bugs &amp; deploy an existing app..."></textarea>
+              <label for="ideaInput" class="field-label">4. Short Description</label>
+              <textarea id="ideaInput" class="input-control" placeholder="e.g., Build a Next.js SaaS MVP with Stripe checkout, create a Python scraper/Telegram bot, or fix bugs &amp; deploy an existing app..."></textarea>
             </div>
 
             <div class="field-group">
-              <label for="contactInput" class="field-label" data-i18n="fld_contact">5. Your Contact (Telegram / Zalo / Email / FB)</label>
-              <input id="contactInput" type="text" class="input-control" placeholder="e.g., @your_handle or email@domain.com" />
+              <label for="contactInput" class="field-label">5. Your Contact (Email / Telegram / Discord / WhatsApp)</label>
+              <input id="contactInput" type="text" class="input-control" placeholder="e.g., name@company.com, @telegram_handle, or Discord" />
             </div>
           </form>
 
           <div class="builder-panel">
-            <span class="field-label" data-i18n="fld_preview">Generated Brief Preview</span>
+            <span class="field-label">Generated Brief Preview</span>
             <pre id="briefPreview" class="preview-box" aria-live="polite"></pre>
 
             <div class="builder-cta-row">
-              <button type="button" id="copyBriefBtn" class="btn btn-secondary" data-i18n="btn_copy">Copy Brief</button>
-              <a id="githubSubmitLink" href="https://github.com/MinhTri12995/MinhTri12995/issues/new?template=project-inquiry.yml" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btn_submit_gh">Submit via GitHub Inquiry →</a>
+              <button type="button" id="copyBriefBtn" class="btn btn-secondary">Copy Brief</button>
+              <a id="githubSubmitLink" href="https://github.com/MinhTri12995/MinhTri12995/issues/new?template=project-inquiry.yml" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Submit via GitHub Inquiry →</a>
             </div>
             <p id="copyFeedback" class="copy-feedback" role="status" aria-live="polite"></p>
           </div>
@@ -355,7 +352,7 @@
       <div class="footer-links">
         <a href="https://github.com/MinhTri12995" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.ieltsup.app" target="_blank" rel="noopener noreferrer">IELTSUp</a>
-        <a href="https://github.com/MinhTri12995/MinhTri12995/issues/new?template=project-inquiry.yml" target="_blank" rel="noopener noreferrer" data-i18n="footer_hire">Start a Project</a>
+        <a href="https://github.com/MinhTri12995/MinhTri12995/issues/new?template=project-inquiry.yml" target="_blank" rel="noopener noreferrer">Start a Project</a>
       </div>
     </div>
   </footer>
