@@ -667,6 +667,22 @@ textarea.input-control {
   color: var(--accent-emerald);
 }
 
+.direct-email-note {
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.direct-email-note a {
+  color: var(--accent-emerald);
+  font-family: var(--font-mono);
+  text-decoration: none;
+}
+
+.direct-email-note a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 .site-footer {
   padding: 2.5rem 0;

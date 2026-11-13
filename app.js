@@ -9,6 +9,7 @@
 
   const briefPreview = document.getElementById('briefPreview');
   const githubSubmitLink = document.getElementById('githubSubmitLink');
+  const emailSubmitLink = document.getElementById('emailSubmitLink');
   const ideaInput = document.getElementById('ideaInput');
   const contactInput = document.getElementById('contactInput');
   const copyFeedback = document.getElementById('copyFeedback');
@@ -36,6 +37,14 @@
     url.searchParams.set('title', issueTitle);
     url.searchParams.set('body', bodyText);
     githubSubmitLink.href = url.toString();
+
+    if (emailSubmitLink) {
+      emailSubmitLink.href =
+        'mailto:concumm2@gmail.com?subject=' +
+        encodeURIComponent(issueTitle) +
+        '&body=' +
+        encodeURIComponent(bodyText);
+    }
   }
 
   document.querySelectorAll('.drawer-toggle').forEach((btn) => {
