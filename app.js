@@ -2,9 +2,9 @@
   'use strict';
 
   const state = {
-    type: 'Full-Stack Web App / Micro-SaaS MVP',
+    type: 'AI Writing / Speaking Feedback',
     timeline: 'Standard (3–5 days)',
-    budget: '$100 – $250 (Feature / Bot / Tool)'
+    scope: 'New Feature / Sprint'
   };
 
   const briefPreview = document.getElementById('briefPreview');
@@ -24,14 +24,14 @@
       `[PROJECT BRIEF] ${state.type}`,
       `• Type: ${state.type}`,
       `• Timeline: ${state.timeline}`,
-      `• Budget: ${state.budget}`,
+      `• Stage: ${state.scope}`,
       `• Scope: ${ideaText}`,
       `• Contact: ${contactText}`
     ].join('\n');
 
     briefPreview.textContent = bodyText;
 
-    const issueTitle = `[Project Inquiry] ${state.type} (${state.budget})`;
+    const issueTitle = `[EdTech Inquiry] ${state.type} (${state.scope})`;
     const url = new URL('https://github.com/MinhTri12995/MinhTri12995/issues/new');
     url.searchParams.set('template', 'project-inquiry.yml');
     url.searchParams.set('title', issueTitle);
